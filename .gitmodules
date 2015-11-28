@@ -1,0 +1,3 @@
+[submodule "software/microcontroller/tagsu-avr-modem"]
+	path = software/microcontroller/tagsu-avr-modem
+	url = git@github.com:muzy/tagsu-avr-modem.git
