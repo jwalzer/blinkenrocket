@@ -1,0 +1,20 @@
+body {
+  background-color: white;
+  padding: 20px;
+}
+.container {
+  width: 252px;
+}
+.cl {
+  background-color: #A0A0A0;
+  float: left;
+  margin: 0px 1px 1px 0px;
+  width: 30px;
+  height: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+.red {
+  background-color: #E80000;
+}
