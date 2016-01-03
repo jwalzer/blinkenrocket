@@ -2627,9 +2627,6 @@ Based on the following sources:
 <wire x1="49.6" y1="26.6" x2="52.2224" y2="26.6" width="0.254" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="8,16,dc5c684bcd21d7c3"/>
-</errors>
 </board>
 </drawing>
 </eagle>
