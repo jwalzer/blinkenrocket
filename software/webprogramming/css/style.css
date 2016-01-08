@@ -1,6 +1,8 @@
 
 .dotmatrixcontainer {
   width: 200px;
+    float: none;
+    margin: 0 auto;
 }
 .cl {
   background-color: #A0A0A0;
@@ -14,6 +16,62 @@
 }
 .red {
   background-color: #E80000;
+}
+
+
+.animation-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  background-color: rgba(255, 255, 255, 0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+.animation-control.left {
+}
+
+.animation-control.right {
+  right: 0;
+  left: auto;
+}
+.animation-control .icon-prev,
+.animation-control .icon-next,
+.animation-control .glyphicon-chevron-left,
+.animation-control .glyphicon-chevron-right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -10px;
+}
+.animation-control .icon-prev,
+.animation-control .glyphicon-chevron-left {
+  left: 50%;
+  margin-left: -10px;
+}
+.animation-control .icon-next,
+.animation-control .glyphicon-chevron-right {
+  right: 50%;
+  margin-right: -10px;
+}
+.animation-control .icon-prev,
+.animation-control .icon-next {
+  width: 20px;
+  height: 20px;
+  font-family: serif;
+  line-height: 1;
+}
+.animation-control .icon-prev:before {
+  content: '\2039';
+}
+.animation-control .icon-next:before {
+  content: '\203a';
 }
 
 /* Space out content a bit */
@@ -233,4 +291,4 @@ color: #F5F5F5;
 {
 color: #999999;
 }
-  
+
