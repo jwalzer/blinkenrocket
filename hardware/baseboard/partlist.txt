@@ -1,0 +1,32 @@
+Partlist
+ 
+Exported from blinkenrocket_cr2032.brd at 01.03.16 21:12
+ 
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+ 
+Assembly variant: 
+ 
+Part     Value                     Package              Library                       Position (mil)        Orientation
+ 
+C1       10uF                      C1206                resistor                      (1525 1400)           MR90
+C2       0.47uF                    C1206                resistor                      (1375 1400)           MR270
+C3       0.47uF                    C1206                resistor                      (1862.5 1000)         MR90
+D1       1N4148                    SOD3718X135N         ipc-7351-diode                (1225 1400)           MR270
+D2       1N4148                    SOD3718X135N         ipc-7351-diode                (1075 1400)           MR270
+ISP      AVR-ISP-6VERT             AVR-ISP-6            avr-7                         (1550 1000)           R270
+JP1                                AUDIO-JACK           SparkFun-Connectors           (950 1000)            R0
+JP3                                1X04-S               pinhead-2                     (2400 275)            R180
+JP4                                1X04-S               pinhead-2                     (2400 1725)           R180
+LED1                               SEGMENT_BL-M12A881UR adafruit                      (2400 1000)           R0
+R1       8.2K                      R1206                resistor                      (1825 1400)           MR270
+R2       6.8K                      R1206                resistor                      (1675 1400)           MR90
+R3       16                        R1206                resistor                      (925 1400)            MR270
+R4       10K                       R1206                resistor                      (1350 550)            MR270
+R5       10K                       R1206                resistor                      (1350 762.5)          MR270
+R6       10K                       R1206                resistor                      (1350 975)            MR270
+SW1      SWITCH-4POMRON-6-6-SWITCH 4P-OMRON-6-6-SWITCH  switch                        (650 312.5)           R90
+SW2      SWITCH-4POMRON-6-6-SWITCH 4P-OMRON-6-6-SWITCH  switch                        (650 1687.5)          R270
+U$1      2032                      KZH20SMD             kzh20_lithium_batterie_holder (3025 1000)           MR270
+U$2      U1                        TQFP32-08            avr-muzy                      (2250 1000)           MR180
+U$3                                BATTERYPAD           computronics.com.au           (3275 1000)           MR90
+U2       EEPROM-I2CEIAJ            SO08-EIAJ            SparkFun-DigitalIC            (1112.5 412.5)        MR0
